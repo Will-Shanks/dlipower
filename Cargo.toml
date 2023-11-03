@@ -2,13 +2,13 @@
 name = "dlipower"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Will-Shanks/dlipower"
+description = "Crate to manage Digital Loggers Web Power Switches"
 
 
 [dependencies]
-tokio = {version = "1", features = ["full"] }
 reqwest = { version = "0.11", features = ["cookies"]}
 md-5 = "0.10"
-scraper = "0.17"
+scraper = "0.18"
 regex = "1"
-scc_conf = { path = "../scc_conf" }
-clap = { version = "4", features=["derive"]}

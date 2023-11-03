@@ -5,7 +5,7 @@ use scraper::{Html, Selector};
 use std::collections::HashMap;
 use std::str::FromStr;
 
-#[derive(Debug, Clone, clap::ValueEnum)]
+#[derive(Debug, Clone)]
 pub enum Status {
     ON,
     OFF,
